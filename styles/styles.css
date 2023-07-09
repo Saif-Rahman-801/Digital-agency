@@ -70,6 +70,11 @@ li a {
     background-size: cover;
     background-position: center;
     color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 .author-img{
     width: 100px;
@@ -84,4 +89,35 @@ li a {
     display: flex;
     gap: 15px;
     align-items: center;
+}
+
+.box-img{
+    width: 70px;
+    
+}
+
+.boxes{
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px grey;
+    width: 150px;
+    height: auto;
+    padding: 50px;
+    color: black;
+}
+
+.skills{
+    display: flex;
+    gap: 10px;
+}
+
+.service-description{
+    width: 50%;
+}
+
+.author-info{
+    border-right: 2px solid orange;
+    padding-right: 20px;
 }
