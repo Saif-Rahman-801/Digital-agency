@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Heading Related styles */
+
+/* Navbar */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  padding: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Banner */
+.banner-container{
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    color: white;
+    text-align: center; 
+}
+.banner-content h2{
+    font-size: 70px;
+}
+
+.banner-content-description{
+    margin: 20px;
+}
+
+.banner-container button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(210, 76, 27);
+    border: 0;
+    color: white;
+    border-radius: 10px;
+}
