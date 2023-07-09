@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* Heading Related styles */
 
@@ -19,105 +19,125 @@
   list-style: none;
 }
 li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
 }
 
 /* Banner */
-.banner-container{
-    height: 100vh;
-    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner-container {
+  height: 100vh;
+  background-image: url("../asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.banner-content{
-    color: white;
-    text-align: center; 
+.banner-content {
+  color: white;
+  text-align: center;
 }
-.banner-content h2{
-    font-size: 70px;
-}
-
-.banner-content-description{
-    margin: 20px;
+.banner-content h2 {
+  font-size: 70px;
 }
 
-.btn-primary{
-    height: 40px;
-    width: 150px;
-    background-color: rgb(210, 76, 27);
-    border: 0;
-    color: white;
-    border-radius: 10px;
+.banner-content-description {
+  margin: 20px;
+}
+
+.btn-primary {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(210, 76, 27);
+  border: 0;
+  color: white;
+  border-radius: 10px;
 }
 
 /* Main section styles here */
 
 /* service section */
-.service-container{
-    height: 100vh;
-    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
+.service-container {
+  height: 100vh;
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.author-img{
-    width: 100px;
-    border-radius: 50%;
+.author-img {
+  width: 100px;
+  border-radius: 50%;
 }
-.author-info{
-    display: flex;
-    gap: 5px;
-    align-items: center;
+.author-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
-.author-contact{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-}
-
-.box-img{
-    width: 70px;
-    
+.author-contact {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.boxes{
-    text-align: center;
-    margin-top: 10px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px 8px grey;
-    width: 150px;
-    height: auto;
-    padding: 50px;
-    color: black;
+.box-img {
+  width: 70px;
 }
 
-.skills{
-    display: flex;
-    gap: 10px;
+.boxes {
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px grey;
+  width: 150px;
+  height: auto;
+  padding: 50px;
+  color: black;
 }
 
-.service-description{
-    width: 50%;
+.skills {
+  display: flex;
+  gap: 10px;
 }
 
-.author-info{
-    border-right: 2px solid orange;
-    padding-right: 20px;
+.service-description {
+  width: 50%;
+}
+
+.author-info {
+  border-right: 2px solid orange;
+  padding-right: 20px;
+}
+/* appointment section styles */
+
+.phone-call {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: -30px auto;
+  padding: 20px;
+  background-color: rgb(141, 35, 35);
+  border-radius: 10px;
+}
+.appointment-desc{
+    margin: 0 15px;
 }
