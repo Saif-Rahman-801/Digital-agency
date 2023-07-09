@@ -141,3 +141,49 @@ li a {
 .appointment-desc{
     margin: 0 15px;
 }
+
+/* blog section styles */
+.blog-container{
+    width: 80%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+    /* border: 2px solid gray; */
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.blog-img{
+    width: 100%;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.card-title-desc{
+    margin: 10px;
+}
+
+.card-desc{
+    padding-bottom: 30px;
+}
+
+.cards{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
