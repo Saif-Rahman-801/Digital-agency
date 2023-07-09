@@ -50,11 +50,38 @@ li a {
     margin: 20px;
 }
 
-.banner-container button{
+.btn-primary{
     height: 40px;
     width: 150px;
     background-color: rgb(210, 76, 27);
     border: 0;
     color: white;
     border-radius: 10px;
+}
+
+/* Main section styles here */
+
+/* service section */
+.service-container{
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.author-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.author-info{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.author-contact{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
